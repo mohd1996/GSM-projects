@@ -77,7 +77,7 @@ void text_mode(){
                     
 
 void message(char* sms, int Temperature){
-    sprintf(sms, "Temperature is  %d ", Temperature);     // I added a space after %d
+    sprintf(sms, "Temperature is  %d ", Temperature);
     sendData(sms);
     lcd_puts(sms);      //print in LCD
     usart_transmit('C');
@@ -86,7 +86,7 @@ void message(char* sms, int Temperature){
 }
 
 void rate_message(char* msg, int rate){
-    sprintf(msg, "Temperature rise rate is %d ",rate);    // I added a space after %d
+    sprintf(msg, "Temperature rise rate is %d ",rate);    
     sendData(msg);
     lcd_puts(msg);     
     sendData("C/min");
