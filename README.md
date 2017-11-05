@@ -1,1 +1,1 @@
-# My_Projects
+This code is written in C language to interface the GSM modem (SIM900A) with atmega32 micro-controller. The system monitors the temperature using LM35 sensor and sends SMS when the temperature reaches a user-specified threshold.
